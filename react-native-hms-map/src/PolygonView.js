@@ -16,8 +16,10 @@
 
 import { exact, oneOf, number, arrayOf, bool, func, oneOfType } from "prop-types";
 import React, { Component } from "react";
-import { requireNativeComponent, ViewPropTypes } from "react-native";
+import { requireNativeComponent } from "react-native";
 import { PatternItemTypes } from "./constants";
+
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 
 class HMSPolygonView extends Component {
   constructor() {
